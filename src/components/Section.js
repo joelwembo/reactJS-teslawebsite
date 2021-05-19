@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "styled-components"
+import styled from "styled-components";
 
 
 function Section() {
@@ -12,4 +12,8 @@ function Section() {
 
 export default Section
 
-const Wrap = styles.div`
+const Wrap = styled.div`
+    width: 100vw;
+    height: 100vh;
+    background:orange;
+    background-image:('');
