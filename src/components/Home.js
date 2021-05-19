@@ -2,7 +2,6 @@ import React from 'react';
 import styled from "styled-components";
 import Section from './Section';
 
-
 function Home() {
     return (
         <Container>
@@ -31,15 +30,15 @@ function Home() {
             
             />
 
-            <Section
-                title = "Solar for new Panel"
+              <Section
+                title = "Solar for new Roof"
                 description ="Order Online for Touchless Delivery"
                 backgroundImg ="solar-roof.jpg" 
                 leftBtnText ="Order Now"
                 rightBtnText = "Learn"
             
             
-            />
+              />
 
                 <Section
                 title = "Accessories"
@@ -48,6 +47,17 @@ function Home() {
                 leftBtnText ="Order Now"
                         
                 />
+
+                <Section
+                title = "Solar Panel"
+                description ="Lowest Cost Solar Panels in America"
+                backgroundImg ="solar-panel.jpg" 
+                leftBtnText ="Custom Order ?"
+                rightBtnText = "Learn"
+
+                        
+                />
+
         </Container>
     )
 }

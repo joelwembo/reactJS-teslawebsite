@@ -77,7 +77,7 @@ const Menu = styled.div`
     justify-content:center;
 
     a {
-        font-weight: 600;
+        font-weight: 800;
         text-decoration:uppercase;
         padding: 0 10px;
         flex-wrap: nowrap;
@@ -122,7 +122,7 @@ const BurgerNav = styled.div`
     flex-direction:column;
     transform: ${props => props.show ? 'translateX(0)':
                             'translateX(100%)'};
-    transition: transform 0.65s ease-in    ;                    
+    transition: transform 0.65s ease-in ease-out    ;                    
 
     li {
         padding: 15px 0;

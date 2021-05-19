@@ -49,7 +49,10 @@ const Wrap = styled.div`
 const ItemText = styled.div`    
     padding-top: 15vh;
     justify-content: flex;
+    font-size:15px;
+    font-family:Ariel;
     text-align: center;`
+   
 
 
 const ButtonGroup = styled.div`
@@ -87,9 +90,9 @@ const RightButton = styled(LeftButton)`
 `
 const DownArrow = styled.img`
     height: 50px;
-    margin-top:100px;
+    margin-top:20px;
     overflow-x: hidden;
-    animation: animateDown infinite 1.5s;
+    animation: animateDown infinite 2.5s;
     
 `
 const Buttons = styled.div`
