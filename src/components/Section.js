@@ -5,7 +5,6 @@ import styled from "styled-components";
 function Section() {
     return (
         <Wrap>
-            section
         </Wrap>
     )
 }
@@ -16,4 +15,8 @@ const Wrap = styled.div`
     width: 100vw;
     height: 100vh;
     background:orange;
-    background-image:('');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image:url('/images/model-s.jpg')`
+
